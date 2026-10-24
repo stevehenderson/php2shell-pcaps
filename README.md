@@ -37,13 +37,6 @@ you do not own or have explicit written permission to test.
 **Patch:** [Commit 3584a98](https://github.com/php/php-src/commit/3584a98bda)
 (300 files changed across the Zend engine).
 
-## Origin
-
-- **Researcher:** [Qi Deng](https://github.com/ikow)
-- **Upstream repo:** [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc)
-- **Writeup:** [qideng.substack.com](https://qideng.substack.com/p/php2shell-dissecting-phps-critical)
-- **Lab fork:** [GoldraK/php2shell-poc](https://github.com/GoldraK/php2shell-poc)
-
 ## Captures
 
 | Directory | Description |
@@ -64,6 +57,11 @@ indispensable for network security work:
   Loaded the pcap as a project, confirmed the two-host topology, and
   inspected the Chain A payload in the TCP stream without leaving the
   browser.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for PCAP size limits, sanitization
+checklist, and review process.
 
 ## Disclaimer
 

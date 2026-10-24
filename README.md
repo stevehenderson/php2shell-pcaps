@@ -5,9 +5,7 @@ tap points for detection engineering and traffic analysis.
 
 ![Teleseer network map: attacker 192.168.65.1 to lab 172.18.0.3](goldrak_php2shell-poc/teleseer1.png)
 
-*Two-host topology in [Teleseer](https://go.teleseer.com): the attacker
-(`192.168.65.1`) driving all exploit traffic against the lab nginx
-container (`172.18.0.3`) on the Docker bridge segment.*
+*[Teleseer](https://go.teleseer.com) capture of the [`goldrak_php2shell-poc/`](goldrak_php2shell-poc/) exploit*
 
 **For authorized security research and educational purposes only.**
 Do not use these captures or the associated exploit code against systems

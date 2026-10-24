@@ -20,8 +20,7 @@ Two tap points, same traffic:
 | `inside.pcap` | nginx container `eth0` (Docker bridge) | 304 | Ethernet | `192.168.65.1` -> `172.18.0.3:80`, original MACs, full frame |
 | `outside.pcap` | host `lo0` (port-forward path) | 329 | BSD loopback | `127.0.0.1` -> `127.0.0.1:18080`, no L2 header |
 
-`php2shell-baseline-attack.pcap` is an earlier single-tap capture from the
-nginx container, superseded by `inside.pcap`.
+`php2shell-baseline-attack.pcap` is an earlier single-tap capture from the nginx container, superseded by `inside.pcap`.
 
 The capture is split into two phases:
 

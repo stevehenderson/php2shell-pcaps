@@ -66,8 +66,7 @@ checklist, and review process.
 All content in this repository is for authorized security testing and
 educational purposes only. The vulnerabilities described here affect
 production PHP installations. If you operate PHP services, apply the
-patched versions listed above. If you are a defender, see the detection
-rules in [ikow/php2shell-poc/detection/](https://github.com/ikow/php2shell-poc/tree/main/detection).
+patched versions listed above. 
 
 ## License
 

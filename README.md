@@ -3,9 +3,9 @@
 Packet captures from the php2shell vulnerability lab, recorded at multiple
 tap points for detection engineering and traffic analysis.
 
-![Teleseer network map: attacker 192.168.65.1 to lab 172.18.0.3](goldrak_php2shell-poc/teleseer1.png)
+![Teleseer network map of the Ludus range: internal hosts, routers, and external links during the PHP2Shell attack](exploitdb-52704/teleseer0.png)
 
-*[Teleseer](https://go.teleseer.com) capture of the [`goldrak_php2shell-poc/`](goldrak_php2shell-poc/) exploit*
+*[Teleseer](https://go.teleseer.com) capture of the [`exploitdb-52704/`](exploitdb-52704/) kill-chain attack in the Ludus range*
 
 **For authorized security research and educational purposes only.**
 Do not use these captures or the associated exploit code against systems
@@ -39,6 +39,7 @@ you do not own or have explicit written permission to test.
 
 | Directory | Description |
 |-----------|-------------|
+| [`exploitdb-52704/`](exploitdb-52704/) | Full Ludus range kill-chain capture with EDB 52704 (RCE, DB credential theft, `INTO OUTFILE` pivot, crown-jewel readback), plus an 18 s carve of the RCE landing |
 | [`goldrak_php2shell-poc/`](goldrak_php2shell-poc/) | Baseline + all three RCE chains (A, A-prime, C, E), captured at both the Docker bridge (inside) and host loopback (outside) |
 
 ## Tools
